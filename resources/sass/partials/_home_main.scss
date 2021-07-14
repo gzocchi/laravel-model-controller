@@ -1,0 +1,13 @@
+div.movies_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+
+    div.movie_card {
+        width: calc(100% / 5);
+        min-width: 200px;
+        max-width: 250px;
+        padding: 20px;
+    }
+}

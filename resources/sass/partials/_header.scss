@@ -1,0 +1,6 @@
+header {
+    height: $h_header;
+    line-height: $h_header;
+    background-color: darken($bg_color, 10%);
+    color: lighten($text_color, 10%);
+}

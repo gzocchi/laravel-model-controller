@@ -7,9 +7,10 @@ use App\Movie;
 
 class MovieController extends Controller
 {
-    public function movie()
+    public function index()
     {
+        $pageTitle = "Laravel | Model Controller";
         $movies = Movie::all();
-        return view('home', compact('movies'));
+        return view('home', compact('pageTitle', 'movies'));
     }
 }
